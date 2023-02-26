@@ -1,29 +1,15 @@
-#Python NLTK Work
+#Python NLTK Digital Assignment
 
-This repository contains my work with the Natural Language Toolkit (NLTK) in Python.
-Installation
+This program utilizes Python NLTK (Natural Language Tool Kit) to perform various text processing tasks.
+Requirements
 
-Before running any of the code in this repository, you will need to install the following dependencies:
-
-    Python 3.x
-    NLTK
-
-To install NLTK, you can use pip:
-
-  pip install nltk
-
-Contents
-
-This repository contains the following files:
-
-    da1nltk.py: A Python script that demonstrates various NLTK functions on the Brown Corpus and a custom corpus.
-    custom_corpus.txt: A text file containing a custom corpus of 200 words.
-    README.txt: This file.
-
+To run this program, you will need to have Python and the NLTK library installed.
 Usage
 
-To run the da1nltk.py script, you can use the following command in your terminal or command prompt:
+The program performs the following tasks:
 
-python da1nltk.py
+    Explore the Brown corpus to find size, tokens, categories, and more.
+    Explore any two corpora available in NLTK, such as raw corpus, POS tagged, parsed, multilingual aligned, spoken language, or semantic tagged.
+    Create a text corpus with at least 200 words and perform tasks such as word segmentation, sentence segmentation, converting to lowercase, stop words removal, stemming, lemmatization, and part of speech tagging.
 
-This will execute the script and display the results in your terminal or command prompt.
+To run the program, simply run the Python script.
